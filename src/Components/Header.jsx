@@ -2,7 +2,7 @@ import '../Styles/Header.css'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div>Header Hello</div>
   )
 }
 
