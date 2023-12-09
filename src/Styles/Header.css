@@ -1,0 +1,202 @@
+#home{
+  background-color: #f9f9f9;
+}
+.Portfolio-header {
+  background-color: #f9f9f9;
+  padding: 100px 0px 50px 0px;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.box-text-image{
+  margin-top: 80px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+}
+
+.header-text{
+  width: 50%;
+}
+.text-width{
+  width: 100%;
+}
+.Header-text-h1{
+  margin: 10px 0px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-size: 55px;
+}
+.header-text-p{
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.flagimg{
+  width: 22px;
+  height: 22px;
+}
+.Handimg{
+  width: 50px;
+  height: 50px;
+}
+.header-image{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.hero-img {
+  background-image: url("../img/portfolio1.jpg");
+  width: 360px;
+  height: 360px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+
+  @media (max-width: 500px) {
+    width: 400px;
+    height: 400px;
+  }
+
+  animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 40% 60% 70% 30% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.icon{
+  padding: 10px 0px;
+}
+
+.Header-icon {
+  color: black;
+}
+.Header-icon:hover {
+  stroke: rgb(0, 94, 255);
+}
+.skills{
+  margin-top: 190px;
+  padding: 10px 15px 30px 0px;
+  width: 200%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.Skills-line{
+  display: inline-block;
+  font-weight: 500;
+  padding: 0px 10px 0px 0px;
+  margin: 10px 25px 10px 0px;
+  border-right: 2px solid black;
+  color: black;
+}
+.skill-img{
+  padding: 0px 8px;
+}
+.skill-icon img,
+.skill-img img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-icon img:hover,
+.skill-img img:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 992px) {
+  .Portfolio-header {
+    min-height: 800px;
+
+  }
+  
+  .box-text-image {
+    margin: 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .text-width{
+    width: 70%;
+    margin: 0px auto;
+  }
+  .header-image{
+    width: 100%;
+  }
+  .hero-img {
+    width: 320px;
+    height: 320px;
+  }
+  .header-text{
+    margin: 40px 0;
+    min-height: 50;
+    width: 100%;
+  }
+  .Header-text-h1{
+    font-size: 58px;
+  }
+  .skills{
+    margin: 30px auto;
+    padding: 10px 0px 0px 0px;
+    width: auto;
+    display: flex;
+    
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .Skills-line{
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
+    border-right: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+  }
+  .skills ul{
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header-text-h1{
+    font-size: 44px;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Skills-line{
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .header-image{
+    height: auto;
+  }
+  .Header-text-h1{
+    font-size: 38px;
+  }
+  .hero-img {
+    width: 280px;
+    height: 280px;
+  }
+}

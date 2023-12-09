@@ -1,105 +1,76 @@
-import '../Styles/Navbar.css'
-import {
-  IconBrandDiscord,
-  IconBrandTwitter,
-  IconMenu2,
-  IconX,
-} from "@tabler/icons-react";
-import { useState, useEffect } from "react";
+import  { useState } from 'react';
 
-const Nav = () => {
+import '../Styles/Navbar.css';
 
+const Navbar = () => {
   const navlinks = [
     {
-      name: "Home",
-      link: "#home",
+      name: 'Home',
+      link: '#home',
     },
     {
-      name: "Market",
-      link: "#market",
+      name: 'About',
+      link: '#about',
     },
     {
-      name: "Choose Us",
-      link: "#chooseUs",
+      name: 'Projects',
+      link: '#projects',
     },
     {
-      name: "Contact",
-      link: "#contact",
+      name: 'Contact',
+      link: '#contact',
     },
   ];
 
-  //toggle button
   const [isOpen, setIsOpen] = useState(false);
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  //scroll
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolled = window.scrollY > 50;
-      setScrolled(isScrolled);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-
   return (
-    <>
-      <nav className={`${scrolled ? "scrolled" : ""}`}>
-          <a href="#home"></a>
-        
-          <ul className="d-none d-lg-flex">
-            {navlinks.map((item) => (
-              <li key={item.name}>
-                <a className='link' href={item.link}>{item.name}</a>
-              </li>
-            ))}
-          </ul>
+    <nav className='porfolio-nav'>
+      <div className=' logo-con'>
+        <a className='Navlink logo ' href='#home'>
+          Justas.dev
+        </a>
+      </div>
 
-          <span className="nav-icons">
-            <IconBrandTwitter className="icon nav-icon" />
-            <IconBrandDiscord className="icon nav-icon" />
-            <div className="d-md-block d-lg-none">
-              <IconMenu2
-                className={`icon nav-icon ${isOpen ? "open" : ""}`}
-                onClick={toggleMenu}
-              />
-            </div>
-          </span>
+      <div className='d-none d-lg-block nav-links-con'>
+        <ul className='navLinks'>
+          {navlinks.map((item, index) => (
+            <li key={index}>
+              <a className='Navlink' href={item.link}>
+                {item.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-      </nav>
-      <div className="d-lg-none">
-        <div className={`mobile-nav ${isOpen ? "active" : ""}`}>
-          <div className="slide-links">
-            
-            <IconX
-              className={`icon nav-icon X-icon ${isOpen ? "open" : ""}`}
-              width={30}
-              height={30}
-              onClick={toggleMenu}
-            />
+      <div className='d-lg-none navLinks'>
+        <button className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+          <div id='bar1' className='bar'></div>
+          <div id='bar2' className='bar'></div>
+          <div id='bar3' className='bar'></div>
+        </button>
 
+        <div className={`mobile-nav ${isOpen ? 'active' : ''}`}>
+          <div className='slide-links'>
             <ul>
-              {navlinks.map((item) => (
-              <li key={item.name}>
-                <a className='togglelink' href={item.link}>{item.name}</a>
-              </li>
-            ))}
+              {navlinks.map((item, index) => (
+                <li key={index}>
+                  <a className='nav-toggle-link' href={item.link}>
+                    {item.name}
+                  </a>
+                </li>
+              ))}
             </ul>
-            
           </div>
         </div>
       </div>
-    </>
+    </nav>
   );
 };
 
-export default Nav;
+export default Navbar;

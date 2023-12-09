@@ -1,4 +1,4 @@
-import '../Styles/Global.css'
+import '../Styles/Default.css'
 import Navbar from "../Components/Navbar";
 import Header from "../components/Header";
 import About from "../components/About";

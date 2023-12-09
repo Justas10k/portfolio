@@ -1,101 +1,160 @@
-Nav{
-  transition: background-color 0.3s ease-in-out;
-  padding: 15px 20px;
+.porfolio-nav{
+  top:0;
+  background-color: #ffffff;
   position: fixed;
   width: 100%;
-  top: 0;
-  z-index: 50;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-
+  flex-direction: row;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  padding: 20px 50px 20px 50px;
 }
-.scrolled{
-  background-color: #0a146e;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+
+
+ .nav-toggle-link{
+  font-size: 18px;
+  text-decoration: none;
+  color: #2d2e32;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+.nav-toggle-link {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding: 0px 10px;
+  transition: border-color 0.3s ease;
+} 
+.logo-con{
+  padding: 10px 0px;
+}
+
+.navLinks{
+  display: flex;
+  padding: 0px 10px;
+}
+.navLinks li{
+  display: block;
+  padding: 0px 10px;
+}
+.navLinks {
+  margin: auto 0px;
+}
+
+
+.Navlink {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: color 0.3s ease-in-out;
+}
+.Navlink:hover {
+  color: #0000ff;
 }
 .logo{
-  height: 40px;
+  font-weight: 700;
+  font-size: 22px;
 }
-.nav-icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.nav-icon{
-  margin: 8px 10px;
-  font-size: 20px;
-  color: white;
-}
-.X-icon{
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  color: black;
-  z-index: 200;
-}
-.link{
-  font-weight: 600;
-  padding: 8px 20px;
-  border-radius: 6px;
-  background: rgba(242, 247, 254, 0);
-  color: white;
-}
-.togglelink{
-  color: black;
-  font-size: 25px;
-}
-.link:hover{
-  background: rgba(242, 247, 254, 0.2);
-}
-/* toogle */
+
 @media (max-width: 992px) {
-  Nav{
-    justify-content: space-between;
-  }
-  .toggle-box{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 8px 20px;
-    z-index: 20001111;
+  .porfolio-nav{
+    padding: 20px 30px 20px 50px;
   }
   .mobile-nav{
-      z-index: 200;
+      z-index: 2;
       top: 0;
       position: fixed;
-      left: -100%;
-      width: 100%;
+      right: -30%;
+      width: 30%;
       height: 100%;
       background-color:#ffffff;
-      transition: .3s;
-  } 
-
-
+      transition: .5s;
+  }
+  .hamburger, .bar{
+      position: fixed;
+  }
+  .hamburger{
+      z-index: 3;
+      width: 25px;
+      height: 21px;
+      transform: translateY(-50%);
+      border: 0;
+      background-color:transparent;
+  }
+  .bar{
+      top: 3px;
+      background: #000000;
+      width: 100%;
+      height: 2.5px;
+      transition: all .3s ease-in;
+      border-radius: 2px;
+  }
+  #bar2{
+      top: 11px;
+  }
+  #bar3{
+      top: 19px;
+  }
   .mobile-nav.active{
-      left: 0;
+      right: 0;
       box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  .hamburger.open #bar1{
+      background-color: #000000;
+      transform: rotate(45deg) translate(6px, 5px);
+  }
+  .hamburger.open #bar2{
+      background-color: transparent;
+  }
+  .hamburger.open #bar3{
+      background-color: #000000;
+      transform: rotate(-45deg) translate(6px, -5px);
   }
 
   .slide-links{
-    font-weight: 600;
     position: absolute;
-    height: 100%;
     width: 100%;
-    text-align: center;
+    top: 50px;
+  }
+  .slide-links ul {
+    list-style: none;
+    margin-top: 35px;
+    padding: 0;
+  }
+  
+  .slide-links ul li {
+    margin: 8px auto 0px 30px;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .slide-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .slide-links ul {
-    margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+  .mobile-nav{
+    right: -40%;
+    width: 40%;
+}
+}
+
+@media (max-width: 576px) {
+  .porfolio-nav{
+    padding: 20px 20px 20px 20px;
   }
-  
-  .slide-links ul li {
-    text-align: left;
-    padding: 20px;
-    text-align: center;
-  }
+  .mobile-nav{
+    right: -100%;
+    width: 100%;
+}
 }
