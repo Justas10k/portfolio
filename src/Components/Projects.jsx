@@ -2,7 +2,7 @@ import '../Styles/Projects.css'
 
 import Probox from './Probox';
 import coiny  from '../img/Coiny.jpeg' 
-import Sudoku  from '../img/Sudoku.jpeg' 
+import Sudoku  from '../img/sudoku-board.png' 
 import Vpnwebsite from '../img/Vpnwebsite.jpeg' 
 
 const Projects = () => {
@@ -35,7 +35,7 @@ const Projects = () => {
                 techno1="JavaScript"
                 techno2="CSS"
                 code="https://github.com/Justas10k/Sudoku"
-                demo=""
+                demo="https://justas10k.github.io/Sudoku/"
                 scrollY="+25%"
                 icon="🧠"
                 cName="reversed-proj"
@@ -49,7 +49,7 @@ const Projects = () => {
                 techno1="Bootstrap"
                 techno2="CSS"
                 code="https://github.com/Justas10k/FreedomVPN_Website"
-                demo=""
+                demo="https://github.com/Justas10k/FreedomVPN_Website"
                 scrollY="-67%"
                 icon="🕊️"
               />

@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import  { useState, useEffect } from 'react';
 
 import '../Styles/Navbar.css';
 
@@ -27,9 +27,26 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const [scrolling, setScrolling] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className='porfolio-nav'>
+    <nav className={`porfolio-nav ${scrolling ? 'scrolled' : ''}`}>
       <div className=' logo-con'>
         <a className='Navlink logo ' href='#home'>
           Justas.dev
