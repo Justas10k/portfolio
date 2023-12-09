@@ -110,6 +110,9 @@
 .skill-img{
   padding: 0px 8px;
 }
+.skill-icon{
+  padding: 0px 15px;
+}
 .skill-icon img,
 .skill-img img {
   transition: transform 0.3s ease-in-out;
@@ -197,6 +200,9 @@
   }
   .Skills-line{
     text-align: center;
+  }
+  .skill-icon{
+    padding: 0px 0px;
   }
 }
 @media (max-width: 576px) {

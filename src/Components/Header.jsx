@@ -30,11 +30,11 @@ const Header = () => {
               <p className='Skills-line'>Tech Stack</p>
 
                 <ul className='skills-con'>
-                  <li className='skill-icon p-1 '><img src="https://skillicons.dev/icons?i=html" alt="skill-icon"/>
+                  <li className='skill-icon '><img src="https://skillicons.dev/icons?i=html" alt="skill-icon"/>
                    <img className="skill-img" src="https://skillicons.dev/icons?i=css" alt="skill-icon"/></li>
-                  <li className='skill-icon p-1'><img src="https://skillicons.dev/icons?i=bootstrap" alt="skill-icon"/>
+                  <li className='skill-icon '><img src="https://skillicons.dev/icons?i=bootstrap" alt="skill-icon"/>
                    <img className="skill-img" src="https://skillicons.dev/icons?i=sass" alt="skill-icon"/></li>
-                   <li className='skill-icon p-1'><img src="https://skillicons.dev/icons?i=js" alt="skill-icon"/>
+                   <li className='skill-icon'><img src="https://skillicons.dev/icons?i=js" alt="skill-icon"/>
                    <img className="skill-img" src="https://skillicons.dev/icons?i=react" alt="skill-icon"/></li>
                 </ul>
             </section>
