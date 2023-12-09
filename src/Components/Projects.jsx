@@ -2,7 +2,7 @@ import '../Styles/Projects.css'
 
 import Probox from './Probox';
 import coiny  from '../img/Coiny.jpeg' 
-import Sudoku  from '../img/sudoku-board.png' 
+import Sudoku  from '../img/sudoku.jpeg' 
 
 const Projects = () => {
 
@@ -35,7 +35,7 @@ const Projects = () => {
                 techno2="CSS"
                 code="https://github.com/Justas10k/Sudoku"
                 demo="https://justas10k.github.io/Sudoku/"
-                scrollY="+25%"
+                scrollY="-15%"
                 icon="🧠"
                 cName="reversed-proj"
               />
