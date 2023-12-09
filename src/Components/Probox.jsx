@@ -1,7 +1,7 @@
-import '../Styles/Projects.css'
+import "../Styles/Projects.css";
 import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
 import { useState } from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function Probox({
   title,
@@ -16,8 +16,6 @@ function Probox({
   icon,
   date,
 }) {
-
-  
   const [scroll, setScroll] = useState(false);
   return (
     <>
@@ -40,7 +38,7 @@ function Probox({
           <h3>
             {title} <span className="date-class">{date}</span> {icon}
           </h3>
-          <p className='discription'>{description}</p>
+          <p className="discription">{description}</p>
           <div className="stack">
             <p>{techno1}</p>
             <p>{techno2}</p>
