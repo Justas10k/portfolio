@@ -55,4 +55,7 @@
   .about-img-side{
     padding: 0px 5% 30px 5%;
   }
+  .text-side{
+    width: 90%;
+  }
 }

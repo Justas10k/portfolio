@@ -15,7 +15,7 @@ const Header = () => {
         <div className='box-text-image'>
         <div className='header-text '>
           <div className='text-width'>
-            <h1 className='Header-text-h1'>Front-End React  Developer       <img className='Handimg' src=  {HandEmote}/></h1>
+            <h1 className='Header-text-h1'>Front-End React <br/> Developer       <img className='Handimg' src=  {HandEmote}/></h1>
             <p className='header-text-p'>Hi, I&apos;m Justas Stankevičius A passionate Front-end React Developer based in Kaunas, Lithuania <img className='flagimg'  src={flag}/> </p>
             <span className='icon'>
               <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/justas-stankevicius-430119293/">
@@ -29,7 +29,7 @@ const Header = () => {
             <section className='d-flex skills'>
               <p className='Skills-line'>Tech Stack</p>
 
-                <ul className='d-flex flex-wrap'>
+                <ul className='skills-con'>
                   <li className='skill-icon p-1 '><img src="https://skillicons.dev/icons?i=html" alt="skill-icon"/>
                    <img className="skill-img" src="https://skillicons.dev/icons?i=css" alt="skill-icon"/></li>
                   <li className='skill-icon p-1'><img src="https://skillicons.dev/icons?i=bootstrap" alt="skill-icon"/>

@@ -14,7 +14,9 @@ footer{
   align-items: center;
   text-align: center;
 }
-
+.footer-icon-box{
+  padding: 10px;
+}
 @media (max-width: 767px) {
   .centered{
     width: 80%;

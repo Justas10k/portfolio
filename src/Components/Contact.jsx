@@ -21,7 +21,7 @@ function Contact() {
         <IconMailFilled className="contact-icon"/>
       </div>
       <div className="contact-text-container">
-        <h5 className='contact-h5-text'>Mail</h5>
+        <h5 className='contact-h5-text'>Email</h5>
         <a href='#' className='contact-link'>justasstankevicius2004@gmail.com</a>
       </div>
       </div>

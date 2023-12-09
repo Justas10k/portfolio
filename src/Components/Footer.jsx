@@ -10,11 +10,11 @@ function Footer() {
           <p className='text-white p-0 m-0'>Copyright © 2023. All rights are reserved</p>
         </div>
 
-        <span className='icon'>
-              <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/justas-stankevicius-430119293/">
+        <span className='footer-icon-box'>
+              <a className='p-1' aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/justas-stankevicius-430119293/">
                 <IconBrandLinkedin className='Header-icon text-white' size={32} strokeWidth={2} />
               </a>
-              <a className='p-3' aria-label="linkedin" rel="noreferrer" target="_blank" href="https://github.com/Justas10k">
+              <a className='p-1' aria-label="linkedin" rel="noreferrer" target="_blank" href="https://github.com/Justas10k">
                 <IconBrandGithub className='Header-icon text-white' size={32} strokeWidth={2} />
               </a>
             </span>

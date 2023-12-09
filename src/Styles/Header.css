@@ -119,7 +119,14 @@
 .skill-img img:hover {
   transform: scale(1.2);
 }
-
+.skills-con{
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 @media (max-width: 992px) {
   .Portfolio-header {
@@ -131,6 +138,9 @@
     margin: 0;
     flex-direction: column-reverse;
     text-align: center;
+  }
+  .box-text-image{
+    margin-top: 70px;
   }
   .text-width{
     width: 70%;
@@ -175,6 +185,7 @@
   }
 }
 
+
 @media (max-width: 767px) {
   .Header-text-h1{
     font-size: 44px;
@@ -189,11 +200,23 @@
   }
 }
 @media (max-width: 576px) {
+  .text-width{
+    width: 95%;
+  }
   .header-image{
     height: auto;
   }
   .Header-text-h1{
-    font-size: 38px;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  .Handimg{
+    width: 30px;
+    height: 30px;
+  }
+  .header-text-p{
+    margin: 10px 0px;
   }
   .hero-img {
     width: 280px;

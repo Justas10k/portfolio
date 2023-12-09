@@ -12,8 +12,6 @@
   padding: 20px 50px 20px 50px;
 }
 
-
-
  .nav-toggle-link{
   font-size: 18px;
   text-decoration: none;
@@ -30,7 +28,7 @@
   transition: border-color 0.3s ease;
 } 
 .logo-con{
-  padding: 10px 0px;
+  padding: 7px 0px;
 }
 
 .navLinks{
