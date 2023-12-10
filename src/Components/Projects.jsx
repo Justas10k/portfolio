@@ -3,6 +3,7 @@ import '../Styles/Projects.css'
 import Probox from './Probox';
 import coiny  from '../img/Coiny.jpeg' 
 import Sudoku  from '../img/sudoku.jpeg' 
+import freedomvpn from '../img/vpnpage.jpeg'
 
 const Projects = () => {
 
@@ -38,6 +39,19 @@ const Projects = () => {
                 scrollY="-15%"
                 icon="🧠"
                 cName="reversed-proj"
+              />
+
+              <Probox
+                title="Freedom VPN"
+                img={freedomvpn}
+                date="(February 2021)"
+                description="FreedomVPN is a comprehensive website dedicated to providing users with detailed information about Virtual Private Networks (VPNs)."
+                techno1="Bootstrap"
+                techno2="CSS"
+                code="https://github.com/Justas10k/FreedomVPN_Website"
+                demo="https://justas10k.github.io/FreedomVPN_Website/"
+                scrollY="-66%"
+                icon="🕊️"
               />
 
             </div>
