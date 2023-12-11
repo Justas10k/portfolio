@@ -1,47 +1,52 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #f9f9f9;;
+body {
+  background-color: #f9f9f9;
   min-width: 300px;
 }
-ul, li{
+ul,
+li {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
-
-a{
+a {
   text-decoration: none;
   color: #2d2e32;
   font-weight: 600;
 }
-p{
+p {
   color: #757575;
-  font-size:17px;
+  font-size: 17px;
   font-family: sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
-  color:#2d2e32;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2d2e32;
   letter-spacing: -0px;
 }
-h1 { 
-  font-size:42px;
-} 
-h2 { 
+h1 {
+  font-size: 42px;
+}
+h2 {
   font-size: 24px;
   padding-bottom: 10px;
   font-weight: 700;
 }
 
 h4 {
-   font-size: 18px;
-   padding-bottom: 10px;
-   font-weight: 700;
-   text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 h5 {
   font-size: 18px;
@@ -49,83 +54,79 @@ h5 {
   font-weight: 700;
 }
 h6 {
-   font-size: 10px;
+  font-size: 10px;
 }
-.small-text-h3{
-  color:#147efb;
+.small-text-h3 {
+  color: #147efb;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 800;
 }
 
-
-
-
-.con{
+.con {
   padding: 10px;
   max-width: 1000px;
   margin: 0px auto;
 }
 @media (max-width: 1400px) {
-  .con{
+  .con {
     max-width: 900px;
     margin: 0px auto;
   }
 }
 @media (max-width: 1200px) {
-  .con{
+  .con {
     max-width: 900px;
     margin: 0px auto;
   }
 }
 @media (max-width: 992px) {
-  .con{
+  .con {
     max-width: 95%;
     margin: 0px auto;
   }
 }
 @media (max-width: 768px) {
-  .con{
+  .con {
     max-width: 90%;
     margin: 0px auto;
   }
 }
 @media (max-width: 576px) {
-  .con{
+  .con {
     max-width: 98%;
     margin: 0px auto;
   }
 }
-span{
+span {
   color: #757575;
   font-size: 17px;
 }
 
-
 .nav-link:hover,
- a:hover{
-  color:#147efb;
+a:hover {
+  color: #147efb;
 }
 
 @media (max-width: 992px) {
-  p{
+  p {
     font-size: 19px;
   }
-  h1{
+  h1 {
     font-size: 40px;
   }
-  h2{
+  h2 {
     font-size: 30px;
   }
 }
 @media (max-width: 576px) {
-  p{
+  p {
     font-size: 16px;
   }
-  h1{
+  h1 {
     font-size: 30px;
   }
-  h2{
+  h2 {
     font-size: 28px;
   }
 }

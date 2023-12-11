@@ -24,7 +24,10 @@ function Contact() {
             </div>
             <div className="contact-text-container">
               <h5 className="contact-h5-text">Email</h5>
-              <a href="mailto:justasstankevicius2004@gmail.com" className="contact-link">
+              <a
+                href="mailto:justasstankevicius2004@gmail.com"
+                className="contact-link"
+              >
                 justasstankevicius2004@gmail.com
               </a>
             </div>

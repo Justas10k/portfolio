@@ -1,27 +1,31 @@
-footer{
+footer {
   background-color: #2d2e32;
 }
-.footer-con{
+.copy {
+  margin: auto 0px;
+  font-weight: 600;
+}
+.footer-con {
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.centered{
+.centered {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.footer-icon-box{
+.footer-icon-box {
   padding: 10px;
 }
 @media (max-width: 767px) {
-  .centered{
+  .centered {
     width: 80%;
   }
-  .footer-con{
+  .footer-con {
     flex-direction: column;
   }
 }

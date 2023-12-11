@@ -1,17 +1,17 @@
-.contact{
+.contact {
   padding: 50px 0px;
 }
-.location-mail{
+.location-mail {
   margin: 40px 0px 10px 0px;
   display: flex;
   gap: 30px;
 }
-.contact-icon{
+.contact-icon {
   width: 25px;
   height: 25px;
-  color:#147efb;
+  color: #147efb;
 }
-.circle-text{
+.circle-text {
   display: flex;
 }
 .circle {
@@ -25,29 +25,29 @@
   justify-content: center;
   margin: 10px;
 }
-.contact-h5-text{
+.contact-h5-text {
   padding: 0;
   margin: 0;
 }
-.contact-text-container{
+.contact-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
-.contact-link{
+.contact-link {
   text-decoration: none;
   color: #767676;
 }
 
 @media (max-width: 767px) {
-  .contact{
+  .contact {
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  .location-mail{
+  .location-mail {
     margin: 0px auto;
     width: 80%;
     align-items: center;
@@ -55,17 +55,17 @@
     flex-direction: column;
     gap: 10px;
   }
-  .circle-text{
+  .circle-text {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
   }
-  .contact-text-container{
+  .contact-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
   }
 }

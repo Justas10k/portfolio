@@ -47,46 +47,6 @@ const Header = () => {
                     />
                   </a>
                 </span>
-
-                <section className="d-flex skills">
-                  <p className="Skills-line">Tech Stack</p>
-
-                  <ul className="skills-con">
-                    <li className="skill-icon ">
-                      <img
-                        src="https://skillicons.dev/icons?i=html"
-                        alt="skill-icon"
-                      />
-                      <img
-                        className="skill-img"
-                        src="https://skillicons.dev/icons?i=css"
-                        alt="skill-icon"
-                      />
-                    </li>
-                    <li className="skill-icon ">
-                      <img
-                        src="https://skillicons.dev/icons?i=bootstrap"
-                        alt="skill-icon"
-                      />
-                      <img
-                        className="skill-img"
-                        src="https://skillicons.dev/icons?i=sass"
-                        alt="skill-icon"
-                      />
-                    </li>
-                    <li className="skill-icon">
-                      <img
-                        src="https://skillicons.dev/icons?i=js"
-                        alt="skill-icon"
-                      />
-                      <img
-                        className="skill-img"
-                        src="https://skillicons.dev/icons?i=react"
-                        alt="skill-icon"
-                      />
-                    </li>
-                  </ul>
-                </section>
               </div>
             </div>
             <div className="header-image">
@@ -94,6 +54,48 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <section className="d-flex skills con">
+          <p className="Skills-line">Tech Stack</p>
+
+          <ul className="skills-con">
+            <li className="skill-icon ">
+              <img
+                className="skill-img"
+                src="https://skillicons.dev/icons?i=html"
+                alt="skill-icon"
+              />
+              <img
+                className="skill-img"
+                src="https://skillicons.dev/icons?i=css"
+                alt="skill-icon"
+              />
+            </li>
+            <li className="skill-icon ">
+              <img
+                className="skill-img"
+                src="https://skillicons.dev/icons?i=bootstrap"
+                alt="skill-icon"
+              />
+              <img
+                className="skill-img"
+                src="https://skillicons.dev/icons?i=sass"
+                alt="skill-icon"
+              />
+            </li>
+            <li className="skill-icon">
+              <img
+                className="skill-img"
+                src="https://skillicons.dev/icons?i=js"
+                alt="skill-icon"
+              />
+              <img
+                className="skill-img"
+                src="https://skillicons.dev/icons?i=react"
+                alt="skill-icon"
+              />
+            </li>
+          </ul>
+        </section>
       </header>
     </>
   );
