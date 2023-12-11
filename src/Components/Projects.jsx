@@ -1,7 +1,7 @@
 import '../Styles/Projects.css'
 
 import Probox from './Probox';
-import coiny  from '../img/Coiny.jpeg' 
+import coiny  from '../img/coiny-full.jpeg' 
 import Sudoku  from '../img/sudoku.jpeg' 
 import freedomvpn from '../img/vpnpage.jpeg'
 
