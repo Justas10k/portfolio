@@ -21,7 +21,7 @@ function Footer() {
             href="https://www.linkedin.com/in/justas-stankevicius-430119293/"
           >
             <IconBrandLinkedin
-              className="Header-icon text-white"
+              className="white Header-icon"
               size={32}
               strokeWidth={2}
             />
@@ -34,7 +34,7 @@ function Footer() {
             href="https://github.com/Justas10k"
           >
             <IconBrandGithub
-              className="Header-icon text-white"
+              className="white Header-icon"
               size={32}
               strokeWidth={2}
             />

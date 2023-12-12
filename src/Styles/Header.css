@@ -80,6 +80,25 @@
   }
 }
 
+.Resume-button {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  margin: 20px 0px;
+  padding: 10px 40px;
+  border: 1px solid #308efb;
+  background-color: transparent;
+  color: #308efb;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Resume-button:hover {
+  background-color: #308efb;
+  color: #fff;
+}
+
 .icon {
   padding: 10px 0px;
 }
@@ -88,12 +107,13 @@
   color: black;
 }
 .Header-icon:hover {
-  stroke: rgb(0, 94, 255);
+  color: #308efb;
 }
+
 .skills {
-  margin-top: 50px;
+  margin: 60px auto;
   padding: 10px 15px 30px 0px;
-  width: 200%;
+  width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -160,6 +180,9 @@
   }
   .Header-text-h1 {
     font-size: 58px;
+  }
+  .Resume-button {
+    margin: 20px auto;
   }
   .skills {
     margin: 0px auto;

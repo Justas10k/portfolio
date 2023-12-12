@@ -12,17 +12,17 @@ const About = () => {
         <div className="text-side">
           <h3 className="small-text-h3">About me</h3>
           <h2>
-            A dedicated Front-end Developer <br /> based in Kaunas, Lithuania{" "}
+            A dedicated Front-end Developer based in Kaunas, Lithuania{" "}
             <img className="bigflagimg" src={flag} />
           </h2>
           <p>
             As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, JavaScript, React, Bootstrap, SCSS MySql. I
-            excel in designing and maintaining responsive websites that offer a
-            smooth user experience. I leverage cutting-edge development tools
-            and techniques to enhance the user experience. I am also a team
-            player who thrives in collaborating with cross-functional teams to
-            produce outstanding web applications.
+            skills in HTML, CSS, Bootstrap, SCSS, JavaScript, React, Node.js,
+            MySql. I excel in designing and maintaining responsive websites that
+            offer a smooth user experience. I leverage cutting-edge development
+            tools and techniques to enhance the user experience. I am also a
+            team player who thrives in collaborating with cross-functional teams
+            to produce outstanding web applications.
           </p>
         </div>
       </div>

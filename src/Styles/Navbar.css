@@ -15,19 +15,6 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nav-toggle-link {
-  font-size: 22px;
-  text-decoration: none;
-  color: #2d2e32;
-  font-weight: 600;
-  letter-spacing: 0px;
-  box-sizing: border-box;
-  display: block;
-  margin: 0 auto;
-  width: 90%;
-  padding: 0px 10px;
-  transition: border-color 0.3s ease;
-}
 .logo-con {
   padding: 7px 0px;
 }
@@ -61,6 +48,19 @@
   font-size: 22px;
 }
 
+.nav-toggle-link {
+  font-size: 22px;
+  text-decoration: none;
+  color: #2d2e32;
+  font-weight: 600;
+  letter-spacing: 0px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding: 0px 10px;
+  transition: border-color 0.3s ease;
+}
 @media (max-width: 992px) {
   .porfolio-nav {
     padding: 17px 20px;

@@ -2,8 +2,16 @@ import "../Styles/Header.css";
 import HandEmote from "../img/HandEmote.png";
 import flag from "../img/flag.png";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import Resume from "../Pdf/Justas_resume.pdf";
 
 const Header = () => {
+  const skillsList = [
+    ["html", "css"],
+    ["bootstrap", "sass"],
+    ["js", "react"],
+    ["nodejs", "mysql"],
+  ];
+
   return (
     <>
       <header id="home">
@@ -20,6 +28,10 @@ const Header = () => {
                   Developer based in Kaunas, Lithuania{" "}
                   <img className="flagimg" src={flag} />{" "}
                 </p>
+                <a href={Resume} download className="Resume-button">
+                  Resume
+                </a>
+
                 <span className="icon">
                   <a
                     aria-label="linkedin"
@@ -58,42 +70,18 @@ const Header = () => {
           <p className="Skills-line">Tech Stack</p>
 
           <ul className="skills-con">
-            <li className="skill-icon ">
-              <img
-                className="skill-img"
-                src="https://skillicons.dev/icons?i=html"
-                alt="skill-icon"
-              />
-              <img
-                className="skill-img"
-                src="https://skillicons.dev/icons?i=css"
-                alt="skill-icon"
-              />
-            </li>
-            <li className="skill-icon ">
-              <img
-                className="skill-img"
-                src="https://skillicons.dev/icons?i=bootstrap"
-                alt="skill-icon"
-              />
-              <img
-                className="skill-img"
-                src="https://skillicons.dev/icons?i=sass"
-                alt="skill-icon"
-              />
-            </li>
-            <li className="skill-icon">
-              <img
-                className="skill-img"
-                src="https://skillicons.dev/icons?i=js"
-                alt="skill-icon"
-              />
-              <img
-                className="skill-img"
-                src="https://skillicons.dev/icons?i=react"
-                alt="skill-icon"
-              />
-            </li>
+            {skillsList.map((icons, index) => (
+              <li className="skill-icon" key={index}>
+                {icons.map((icon, subIndex) => (
+                  <img
+                    key={subIndex}
+                    className="skill-img"
+                    src={`https://skillicons.dev/icons?i=${icon}`}
+                    alt="skill-icon"
+                  />
+                ))}
+              </li>
+            ))}
           </ul>
         </section>
       </header>

@@ -21,6 +21,9 @@ footer {
 .footer-icon-box {
   padding: 10px;
 }
+.white {
+  color: white;
+}
 @media (max-width: 767px) {
   .centered {
     width: 80%;
