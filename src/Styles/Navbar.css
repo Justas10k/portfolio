@@ -48,13 +48,13 @@
   text-decoration: none;
   font-weight: 600;
   color: #000000;
-  font-size: 19px;
+  font-size: 18px;
   text-decoration: none;
   padding: 10px 10px;
   transition: color 0.3s ease-in-out;
 }
 .Navlink:hover {
-  color: #0000ff;
+  color: #308efb;
 }
 .logo {
   font-weight: 700;
