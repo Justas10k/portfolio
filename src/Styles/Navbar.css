@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: row;
   z-index: 2;
-  padding: 20px 50px 20px 50px;
+  padding: 17px 50px;
 }
 .scrolled {
   background-color: #ffffff;
@@ -16,7 +16,7 @@
 }
 
 .nav-toggle-link {
-  font-size: 24px;
+  font-size: 22px;
   text-decoration: none;
   color: #2d2e32;
   font-weight: 600;
@@ -63,7 +63,7 @@
 
 @media (max-width: 992px) {
   .porfolio-nav {
-    padding: 20px 20px 20px 20px;
+    padding: 17px 20px;
   }
   .mobile-nav {
     z-index: 2;
@@ -152,9 +152,6 @@
 }
 
 @media (max-width: 576px) {
-  .porfolio-nav {
-    padding: 20px 20px 20px 20px;
-  }
   .mobile-nav {
     right: -100%;
     width: 100%;
