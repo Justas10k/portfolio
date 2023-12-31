@@ -1,12 +1,12 @@
 import "../Styles/About.css";
 import flag from "../img/flag.png";
-import aboutpicture from "../img/about3.webp";
+import AboutGif from "../img/AboutGif.gif";
 const About = () => {
   return (
     <div className="about-content" id="about">
       <div className="con flex-box">
         <div className="about-img-side">
-          <img src={aboutpicture} className="about-picture" />
+          <img src={AboutGif} className="about-picture" />
         </div>
 
         <div className="text-side">
@@ -16,13 +16,10 @@ const About = () => {
             <img className="bigflagimg" src={flag} />
           </h2>
           <p>
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, Bootstrap, SCSS, JavaScript, React, Node.js,
-            MySql. I excel in designing and maintaining responsive websites that
-            offer a smooth user experience. I leverage cutting-edge development
-            tools and techniques to enhance the user experience. I am also a
-            team player who thrives in collaborating with cross-functional teams
-            to produce outstanding web applications.
+            I&apos;m a passionate Front-end Developer 🚀 with a strong focus on
+            writing clean, readable code and solving hard problems. I
+            love programming for the endless possibilities it offers and the
+            financial rewards it brings 💻💡💰.
           </p>
         </div>
       </div>

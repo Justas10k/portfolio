@@ -4,15 +4,29 @@ import Probox from "./Probox";
 import coiny from "../img/coiny-full.jpeg";
 import Sudoku from "../img/sudoku.jpeg";
 import freedomvpn from "../img/vpnpage.jpeg";
-
+import GGShop from "../img/GGShopWeb.jpeg";
 const Projects = () => {
   return (
     <section id="projects" className="project">
       <div className="con">
         <div className="project-content">
-          <p>portfolio</p>
-          <h3>Each project is a special step in our development journey 🛤️</h3>
+          <h3 className="small-text-h3">Projects</h3>
+          <h3 className="project-long-h3">Each project is a special step in our development journey 🛤️</h3>
+
           <div className="projects-grid">
+            <Probox
+              title="GGShop"
+              img={GGShop}
+              date="(December 2023)"
+              description="GGShop is a tech heaven. Browse top-notch computers parts, accessories, and more for an epic setup!"
+              techno1="React"
+              techno2="Typescript"
+              code="https://github.com/Justas10k/Typescript-GGShop"
+              demo="https://justas10k.github.io/Typescript-GGShop/"
+              scrollY="-56%"
+              icon="🎧"
+            />
+
             <Probox
               title="Coiny"
               img={coiny}
@@ -30,7 +44,7 @@ const Projects = () => {
               title="Sudoku"
               date="(February 2022)"
               img={Sudoku}
-              description="Sudoku is a number-placement puzzle that consists of a 9x9 grid divided into nine 3x3 subgrids. The objective is to fill in the grid with digits from 1 to 9, ensuring that each row, column, and subgrid contains every number exactly once."
+              description="Sudoku is a puzzle that consists of a 9x9 grid divided into nine 3x3 subgrids. The objective is to fill in the grid with digits from 1 to 9, ensuring that each row, column, and subgrid contains every number exactly once."
               techno1="JavaScript"
               techno2="CSS"
               code="https://github.com/Justas10k/Sudoku"

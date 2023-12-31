@@ -12,14 +12,13 @@ function Probox({
   code,
   demo,
   scrollY,
-  cName,
   icon,
   date,
 }) {
   const [scroll, setScroll] = useState(false);
   return (
     <>
-      <div className={`pro pro__1 ${cName}`}>
+      <div className={`pro pro__1 `}>
         <div className="pro__img">
           <a target="_blank" href={demo} rel="noreferrer">
             <img
@@ -35,7 +34,7 @@ function Probox({
           </a>
         </div>
         <div className="pro__text">
-          <h3>
+          <h3 className="fw-h3">
             {title} <span className="date-class">{date}</span> {icon}
           </h3>
           <p className="discription">{description}</p>

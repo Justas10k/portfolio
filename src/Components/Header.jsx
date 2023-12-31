@@ -2,14 +2,14 @@ import "../Styles/Header.css";
 import HandEmote from "../img/HandEmote.png";
 import flag from "../img/flag.png";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
-import Resume from "../Pdf/Justas_Stankevi_resume.pdf";
+import Resume from "../Pdf/JustasStankeviciusResumeDown.pdf";
 
 const Header = () => {
   const skillsList = [
     ["html", "css"],
     ["bootstrap", "sass"],
-    ["js", "react"],
-    ["nodejs", "mysql"],
+    ["js", "typescript"],
+    ["react", "nodejs"],
   ];
 
   return (
@@ -26,7 +26,7 @@ const Header = () => {
                 <p className="header-text-p">
                   Hi, I&apos;m Justas Stankevičius A passionate Front-end React
                   Developer based in Kaunas, Lithuania{" "}
-                  <img className="flagimg" src={flag} />{" "}
+                  <img className="flagimg" src={flag} />
                 </p>
                 <a href={Resume} download className="Resume-button">
                   Resume

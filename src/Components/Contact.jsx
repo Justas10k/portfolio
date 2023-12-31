@@ -5,7 +5,7 @@ function Contact() {
     <section className="contact bg-white" id="contact">
       <div className="con">
         <h3 className="small-text-h3">Contact</h3>
-        <h2>Dont be shy! Hit me up! 👇</h2>
+        <h2 className="fw-600">Dont be shy! Hit me up! 👇</h2>
         <div className="location-mail">
           <div className="circle-text">
             <div className="circle">

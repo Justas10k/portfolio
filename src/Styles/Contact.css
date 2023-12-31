@@ -28,6 +28,7 @@
 .contact-h5-text {
   padding: 0;
   margin: 0;
+  font-weight: 600;
 }
 .contact-text-container {
   display: flex;

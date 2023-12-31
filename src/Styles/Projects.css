@@ -20,15 +20,7 @@
   }
 }
 
-.project-content p {
-  color: #147efb;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.project-content h3 {
+.project-long-h3 {
   font-size: 25px;
   color: #2d2e32;
   margin-bottom: 60px;
@@ -49,6 +41,7 @@
   background-color: white;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
   border-radius: 17px;
+
 }
 
 .projects-grid .pro__1 {
@@ -56,6 +49,9 @@
   flex-direction: row;
   padding: 20px;
   gap: 80px;
+}
+.fw-h3{
+  font-weight: 700;
 }
 
 @media (max-width: 1020px) {
