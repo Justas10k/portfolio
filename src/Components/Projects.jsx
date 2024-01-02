@@ -11,7 +11,9 @@ const Projects = () => {
       <div className="con">
         <div className="project-content">
           <h3 className="small-text-h3">Projects</h3>
-          <h3 className="project-long-h3">Each project is a special step in our development journey 🛤️</h3>
+          <h3 className="project-long-h3">
+            Each project is a special step in our development journey 🛤️
+          </h3>
 
           <div className="projects-grid">
             <Probox
@@ -38,6 +40,7 @@ const Projects = () => {
               demo="https://justas10k.github.io/CoinyCurrency/"
               scrollY="-64%"
               icon="💲"
+              cName="reversed-proj"
             />
 
             <Probox
@@ -51,7 +54,6 @@ const Projects = () => {
               demo="https://justas10k.github.io/Sudoku/"
               scrollY="-15%"
               icon="🧠"
-              cName="reversed-proj"
             />
 
             <Probox
@@ -65,6 +67,7 @@ const Projects = () => {
               demo="https://justas10k.github.io/FreedomVPN_Website/"
               scrollY="-66%"
               icon="🕊️"
+              cName="reversed-proj"
             />
           </div>
         </div>

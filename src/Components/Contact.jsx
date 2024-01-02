@@ -2,7 +2,7 @@ import "../Styles/Contact.css";
 import { IconMap2, IconMailFilled } from "@tabler/icons-react";
 function Contact() {
   return (
-    <section className="contact bg-white" id="contact">
+    <section className="contact" id="contact">
       <div className="con">
         <h3 className="small-text-h3">Contact</h3>
         <h2 className="fw-600">Dont be shy! Hit me up! 👇</h2>

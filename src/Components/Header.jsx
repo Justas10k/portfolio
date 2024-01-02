@@ -2,7 +2,7 @@ import "../Styles/Header.css";
 import HandEmote from "../img/HandEmote.png";
 import flag from "../img/flag.png";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
-import Resume from "../Pdf/JustasStankeviciusResumeDown.pdf";
+import Resume from "../Pdf/Justas Resume.pdf";
 
 const Header = () => {
   const skillsList = [
